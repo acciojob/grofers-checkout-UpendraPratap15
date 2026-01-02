@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
   // select all price cells
-  const priceCells = document.querySelectorAll(".price"); // 👈 works even if values change [web:1]
+  const priceCells = document.querySelectorAll(".prices"); // 👈 works even if values change [web:1]
 
   let total = 0;
   priceCells.forEach((cell) => {
